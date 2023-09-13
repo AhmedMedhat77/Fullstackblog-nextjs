@@ -39,6 +39,9 @@ const Write = () => {
           placeholder="Tell Your Story"
         />
       </div>
+      <button className={styles.publish}>
+        Publish
+      </button>
     </div>
   );
 };
