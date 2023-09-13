@@ -9,7 +9,7 @@ const Write = () => {
   const [value, setValue] = React.useState("");
   return (
     <div className={styles.container}>
-      <input type="text" placeholder="Title" />
+      <input type="text" placeholder="Title" className={styles.input} />
 
       <div className={styles.editor}>
         <button
@@ -32,7 +32,7 @@ const Write = () => {
           </div>
         )}
         <ReactQuill
-        className={styles.textArea}
+          className={styles.textArea}
           theme="bubble"
           value={value}
           onChange={setValue}
