@@ -50,6 +50,13 @@
     border: none;
     border-radius: 5px;
     width: max-content;
+    cursor: pointer;
+
+}
+
+.postButton:hover {
+    background-color: var(--softBg);
+    color: var(--softTextColor);
 }
 
 @media screen and (max-width:1280px) {
